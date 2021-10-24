@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -w test/helpers/browser.js test/*.spec.js",
-    "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./"
+    "dev:hot": "  webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./"
   },
   "ava": {
     "require": [
@@ -32,6 +32,7 @@
     "babel-preset-stage-0": "^6.5.0",
     "bell-on-bundler-error-plugin": "^1.0.8",
     "chai": "^3.5.0",
+    "chai-enzyme": "*",
     "enzyme": "^2.0.0",
     "jsdom": "^8.1.0",
     "mocha": "^3.0.2",
@@ -46,7 +47,7 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
-  "engines" : { 
-    "node" : ">=6.2.2" 
-  } 
+  "engines": {
+    "node": ">=6.2.2"
+  }
 }

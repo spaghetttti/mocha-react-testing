@@ -1,4 +1,4 @@
-import React, {propTypes} from 'react';
+  import React, {propTypes} from 'react';
 import md5 from 'md5';
 
 import Avatar from './avatar';
