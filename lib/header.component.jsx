@@ -39,7 +39,7 @@ export class HeaderComponent extends React.Component {
 
         return (
             <div className="header">
-              <div className={overLayBoxClass.join(' ')}></div>
+              <div id="menu styles" className={overLayBoxClass.join(' ')}></div>
               <nav className="flex flex-jc-sb flex-ai-c change-on-mob">
                 <div className="header-logo flex flex-jc-sb">
                   <Link to="/">
