@@ -1,0 +1,38 @@
+Testing plan: 
+
+1 Form-Input 
+	1.1 Shallow render test , ~
+	1.2 Props test ~
+2 Options-Item
+	1.1 Shallow render test ~
+	1.2 Props test ~
+3 Snapshot testing in NOT WORKING WITH MOCHA-CHAI 
+	3.1 Main-grid  
+	3.2 Home Page ~
+	3.3 Sign-in-out Page
+	3.4 Footer (Optional)
+4 Testing statefull components & async func 
+	4.1 Sign-in !
+	4.2 Sign-up !
+5 Test connected components 
+	5.1 Header ! (just exported plain component without connect to redux)
+	Test toggle,
+6 Test reducers 
+	6.1 flights reducers
+	6.2 user reducers
+7 Test Actions 
+	7.1 flights 	(very primitive redux, added cart redux folder from crwn-shop project)
+	7.2 user actions 
+...
+
+Questions and notes : 
+1) Does your company use snapshot testing
+2) 
+
+1) Very difficult to install mocha-chai-enzyme tesitng environment - dependecy tree breaks down
+2) Enzyme .simulate('submit') does not work for now src: `https://github.com/enzymejs/enzyme/blob/master/docs/future.md`
+3) Async funtions throw an error when tested, due to problem with babel config
+4) For now connect() function also can't be tested because can not install 'react-redux' library 
+
+
+

@@ -4,14 +4,13 @@ import { expect } from "chai";
 
 describe('Flight action creators', () => {
     it('should create action to update collection', () => {
-        const text = 'woo';
+        const test = 'update test';
         const expectedAction = { 
             type: flightActionTypes.UPDATE_COLLECTIONS,
-            payload: text
+            payload: test
         }
-        console.log(updateCollections(text),expectedAction);
-        //expect(updateCollections(text)).to.eq(expectedAction);
-    
+        console.log(updateCollections(test),expectedAction);
+        //expect(updateCollections(text)).to.eq(expectedAction); to different but equal objects
     })
     
 })
